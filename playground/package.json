@@ -1,0 +1,18 @@
+{
+  "name": "vue-3-project",
+  "description": "vue demo",
+  "devDependencies": {
+    "@efox/emp": "^2.0.7",
+    "unplugin-vue-components": "^0.17.18"
+  },
+  "dependencies": {
+    "@fe6/emp-plugin-babel-vue-3": "workspace:^",
+    "ant-design-vue": "^3.0.0-beta.12",
+    "dayjs": "^1.10.7",
+    "vue": "^3.2.30"
+  },
+  "scripts": {
+    "start": "emp dev",
+    "pull-types": "emp dts"
+  }
+}
