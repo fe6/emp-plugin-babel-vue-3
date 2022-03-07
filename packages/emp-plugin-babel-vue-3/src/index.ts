@@ -57,7 +57,7 @@ const PluginBabelVue3 = ({ wpChain }: ConfigPluginOptions): void => {
     .loader(require.resolve('vue-loader'))
     .options({
       compilerOptions: {
-        isCustomElement: (tag) => tag.startsWith('iconpark-'),
+        isCustomElement: (tag: string) => tag.startsWith('iconpark-'),
       },
     });
 
